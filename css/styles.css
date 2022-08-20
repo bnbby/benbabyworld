@@ -30,12 +30,22 @@ color: #FEC260;
   text-align: center;
 }
 .profile-image {
-  position: relative;
-  bottom: 15%;
-  right: 30%;
+  width: 20%;
+  position: absolute;
+  right: 15rem;
 }
+
+@media (min-width: 1px) {
+  .profile-image {
+  position: static;
+  width: 50%;
+  transform: rotate(0);
+  margin-top: 2rem;
+}
+
 h1 {
   width: 90%;
+  font-size: 100%;
 }
 
 .description  {
@@ -45,8 +55,10 @@ h1 {
 
 #intro {
   width: 200% 0;
+  position: relative;
+  bottom: 3rem;
   padding-top: 15%;
-  font-size: 150%;
+  font-size: 300%;
 }
 
 .education {
@@ -54,7 +66,7 @@ h1 {
   background-color: #FEC260;
 }
 
-.roles {
+#roles {
   background-color: #FEC260;
 }
 
@@ -72,10 +84,13 @@ h3 {
 
 /* Experience Section */
 
-.experience {
+#experience {
   color: #100F0F;
   background-color: #FEC260;
   text-align: center;
+  padding: 3% 15%;
+  height: 600px;
+
 }
 
 div.gallery {
@@ -125,9 +140,9 @@ div.desc {
   clear: both;
 }
 
-.contact {
+#contact {
   padding: 3% 15% 2%;
 }
 .contact-item {
-  padding: 2rem auto;
+  padding: 1rem 0 1rem 0;
 }
