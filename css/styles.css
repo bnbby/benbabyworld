@@ -29,10 +29,10 @@ color: #FEC260;
   font-size: 90%;
   text-align: center;
 }
+
 .profile-image {
-  width: 200px;
-  position: absolute;
-  right: 15rem;
+  width: 300px;
+  position: static;
 }
 
 
